@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=monospace&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'monospace', monospace;
   background-color: #eafbff;
   background-image: linear-gradient(
     to bottom,
@@ -34,7 +34,7 @@ nav {
 }
 
 nav.active {
-  width: 350px;
+  width: 415px;
 }
 
 nav ul {
