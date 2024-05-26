@@ -1,3 +1,4 @@
-const open = document.getElementById('open');
-const close = document.getElementById('close');
-const container = document.querySelector('.container');
+const toggle = document.getElementById('toggle');
+const nav = document.getElementById('nav');
+
+toggle.addEventListener('click', () => nav.classList.toggle('active'));
